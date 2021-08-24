@@ -5,4 +5,6 @@ conta = Conta(123,"Carol", 55.5,1000.0)
 
 conta.deposita(15.0)
 conta.saca(10.0)
+
+print(conta._Conta__saldo)
 conta.extrato()

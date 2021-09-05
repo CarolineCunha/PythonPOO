@@ -1,4 +1,5 @@
 from conta import Conta
+from cliente import Cliente
 
 conta = Conta(123,"Carol", 55.5,1000.0)
 conta2 = Conta(121,"Caroline", 65.5,1000.0)
@@ -14,4 +15,8 @@ conta.extrato()
 
 conta.get_saldo()
 conta.get_titular()
-conta.set_limite(10000.0)
+conta.limite=10000.0
+print(conta.limite)
+
+cliente = Cliente("carol")
+cliente.nome

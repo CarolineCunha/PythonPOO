@@ -11,3 +11,7 @@ conta.extrato()
 
 conta2.tranfere(10.0,conta)
 conta.extrato()
+
+conta.get_saldo()
+conta.get_titular()
+conta.set_limite(10000.0)
